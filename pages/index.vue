@@ -13,31 +13,15 @@
 
 <script lang="ts">
 import Vue from 'vue'
-import Header from "~/components/Header.vue";
+// import Header from "~/components/header/Header.vue";
 
 export default Vue.extend({
   name: 'IndexPage',
-  components: {Header},
+  // components: {Header},
 })
 </script>
+
 <style module lang="scss">
-body{
-  background: #E5E5E5;
-}
-
-.main{
-  margin-top: 16px;
-  margin-left: 32px;
-  margin-right: 32px;
-  display: flex;
-  flex-direction: row;
-}
-.items{
-  grid-column-gap: 16px;
-  margin-left: 16px;
-  display: inline-grid;
-  grid-template-columns: 1fr 1fr 1fr;
-}
-
+@import "index";
 </style>
 

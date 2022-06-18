@@ -1,0 +1,27 @@
+body{
+  background: var(--back-color);
+}
+
+.main{
+  margin-top: 16px;
+  margin-left: 32px;
+  margin-right: 32px;
+  display: flex;
+  flex-direction: row;
+}
+.items{
+  grid-column-gap: 16px;
+  margin-left: 16px;
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+:root{
+  --back-color: #E5E5E5;
+  --back-item-color:#FFFEFB;
+  --item-shadow-first: rgba(0, 0, 0, 0.04);
+  --item-shadow-second: rgba(0, 0, 0, 0.02);
+  --text-shadow-color:#3F3F3F;
+  --back-btn-color:#EEEEEE;
+  --btn-color:#B4B4B4;
+
+}
